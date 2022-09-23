@@ -60,7 +60,7 @@ echo Убедитесь что ваше устроиство находится 
 adb wait-for-device
 adb sideload "$rom"
 }
-function installrom(){
+function upd(){
 gitver=$(curl -f -# https://raw.githubusercontent.com/Russanandres/RLT_linux/main/lv)
  if [ "$gitver" -gt "$VER" ]; then
   echo У вас старая версия! Обновление через 3 секунды.
