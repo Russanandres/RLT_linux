@@ -71,7 +71,7 @@ gitver=$(curl -f -# https://raw.githubusercontent.com/Russanandres/RLT_linux/mai
 #  fi
 exitscr
  fi
-
+}
 
 while true; do
 clear
