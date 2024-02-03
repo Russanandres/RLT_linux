@@ -66,7 +66,8 @@ gitver=$(curl -f -# https://raw.githubusercontent.com/Russanandres/RLT_linux/mai
   echo У вас старая версия! Обновление через 3 секунды.
   sleep 3
  # if [ ! -f "./linux.sh" ]; then
-  wget https://raw.githubusercontent.com/Russanandres/RLT_linux/main/linux.sh
+  wget https://raw.githubusercontent.com/Russanandres/RLT_linux/main/rlt_upd.sh
+  bash rlt_upd.sh
 #  elif linuxu.sh https://raw.githubusercontent.com/Russanandres/RLT_linux/main/linux.sh
 #  fi
 exitscr
